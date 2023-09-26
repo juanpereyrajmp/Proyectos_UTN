@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1693855423 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\gasto.cpp
+	<iostream>
+	"Gasto.h"
+
+1694089608 c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\gasto.h
+	"Transaccion.h"
+
+1693853569 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\ingreso.cpp
+	<iostream>
+	"Ingreso.h"
+
+1693853401 c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\ingreso.h
+	"Transaccion.h"
+
+1694090845 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\main.cpp
+	<iostream>
+	"Programa.h"
+	"Funciones.h"
+
+1693852899 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1693852759 c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\fecha.h
+
+1693852915 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\transaccion.cpp
+	<iostream>
+	<cstring>
+	"Transaccion.h"
+
+1693851671 c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\transaccion.h
+	"Fecha.h"
+
+1694092762 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\programa.cpp
+	<iostream>
+	"Programa.h"
+
+1694091932 c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\programa.h
+	"Gasto.h"
+	"Ingreso.h"
+
+1694092887 c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\funciones.h
+	"Programa.h"
+
+1694092895 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\transacciones\funciones.cpp
+	<iostream>
+	"Funciones.h"
+

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1693491161 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\date.cpp
+	<iostream>
+	<ctime>
+	"date.h"
+
+1693491019 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\date.h
+
+1693491513 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\person.cpp
+	<iostream>
+	"person.h"
+
+1693491437 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\person.h
+
+1693491321 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\timeclass.cpp
+	<iostream>
+	"timeClass.h"
+	<ctime>
+
+1693491218 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\timeclass.h
+
+1693493172 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\main.cpp
+	<iostream>
+	"Reunion.h"
+
+1693493502 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\reunion.h
+	"date.h"
+	"timeClass.h"
+	"person.h"
+
+1693493605 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectoreunion\reunion.cpp
+	<iostream>
+	"Reunion.h"
+

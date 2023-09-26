@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1692979011 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\main.cpp
+	<iostream>
+	"reunion.h"
+
+1692972579 c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\date.h
+
+1692975389 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\person.cpp
+	<iostream>
+	"person.h"
+
+1692975259 c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\person.h
+
+1692978999 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\reunion.cpp
+	<iostream>
+	"reunion.h"
+
+1692978990 c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\reunion.h
+	"date.h"
+	"timeClass.h"
+	"person.h"
+
+1692965059 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\time.cpp
+	<iostream>
+	"time.h"
+
+1692974310 c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\time.h
+
+1692972198 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\date.cpp
+	<iostream>
+	<ctime>
+	"date.h"
+
+1692974310 c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\timeclass.h
+
+1692974500 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\reunion\timeclass.cpp
+	<iostream>
+	"timeClass.h"
+	<ctime>
+
