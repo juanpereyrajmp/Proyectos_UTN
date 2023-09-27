@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
 
 #include "ArchivoViajes.h"
@@ -77,6 +78,8 @@ void ArchivoViajes::cantidadViajesPorMedioTransporte(){
     cout << "Tren: " << contadorTransporte3 << " viajes" << endl;
     cout << endl;
 
+    fclose(ArchivoRegistrosViajes);
+
 }
 
 void ArchivoViajes::viajeConMenorImporte(){
@@ -102,9 +105,53 @@ void ArchivoViajes::viajeConMenorImporte(){
     cout << endl;
     menorRegistro.mostrar();
     cout << endl;
+
+    fclose(ArchivoRegistrosViajes);
 }
 
 void ArchivoViajes::mesMayorRecaudacionSubte(){
+
+    abrirArchivo("rb");
+
+    int mayorRecaudacion = 0;
+    int mesMayor;
+    int anioMayor;
+    string meses[36] = {"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre","Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre","Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
+    Fecha aux;
+    int vecMeses[36] = {};
+    string nombreMesMayor;
+
+    while(fread(&registroViaje, sizeof(Viaje), 1, ArchivoRegistrosViajes) == 1){
+
+        aux = registroViaje.getFechaViaje();
+
+        for (int i=0;i<12;i++){
+            if (aux.getAnio() == 2020 && registroViaje.getMedioTransporte() == 2){
+                vecMeses[aux.getMes()-1] += registroViaje.getImporte();
+            }
+            else if (aux.getAnio() == 2021 && registroViaje.getMedioTransporte() == 2){
+                vecMeses[aux.getMes()+11] += registroViaje.getImporte();
+            }
+            else if (aux.getAnio() == 2022 && registroViaje.getMedioTransporte() == 2){
+                vecMeses[aux.getMes()+23] += registroViaje.getImporte();
+            }
+        }
+
+    }
+
+    for (int i=0;i<36;i++){
+        if (vecMeses[i] > mayorRecaudacion){
+            mayorRecaudacion = vecMeses[i];
+            mesMayor = i+1;
+            anioMayor = aux.getAnio();
+            nombreMesMayor = meses[i];
+        }
+    }
+
+    cout << "MES CON MAYOR RECAUDACION" << endl << endl;
+    cout << nombreMesMayor << " de " << anioMayor << endl;
+
+    fclose(ArchivoRegistrosViajes);
 
 }
 

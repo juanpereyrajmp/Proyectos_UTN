@@ -13,7 +13,6 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="./" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -23,7 +22,6 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="./" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -37,10 +35,14 @@
 		<Unit filename="ArchivoViajes.cpp" />
 		<Unit filename="ArchivoViajes.h" />
 		<Unit filename="Fecha.h" />
+		<Unit filename="Sube.cbp" />
+		<Unit filename="Sube.depend" />
+		<Unit filename="Sube.layout" />
 		<Unit filename="Tarjeta.cpp" />
 		<Unit filename="Tarjeta.h" />
 		<Unit filename="Viaje.cpp" />
 		<Unit filename="Viaje.h" />
+		<Unit filename="Viajes.dat" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

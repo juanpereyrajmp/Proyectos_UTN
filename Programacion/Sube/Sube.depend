@@ -27,3 +27,32 @@
 1695664486 c:\users\sebastian\desktop\juan\dev\programacion ii\sube\archivoviajes.h
 	"Viaje.h"
 
+1695649238 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\tarjeta.cpp
+	<iostream>
+	"Tarjeta.h"
+
+1695648839 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\tarjeta.h
+	"Fecha.h"
+
+1693321341 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\fecha.h
+
+1695650251 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\viaje.cpp
+	<iostream>
+	"Viaje.h"
+
+1695649742 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\viaje.h
+	"Fecha.h"
+
+1695833691 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\main.cpp
+	<iostream>
+	"ArchivoViajes.h"
+
+1695665370 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\archivoviajes.h
+	"Viaje.h"
+
+1695833656 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\programacion\sube\archivoviajes.cpp
+	<iostream>
+	<cstring>
+	"ArchivoViajes.h"
+	"Viaje.h"
+
