@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1695819535 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\ciudad.cpp
+	"Ciudad.h"
+	<cstring>
+	<cstdio>
+	<iostream>
+
+1695819535 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\ciudad.h
+
+1693417921 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\cargarcadena.cpp
+	<iostream>
+	"CargarCadena.h"
+
+1693417933 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\cargarcadena.h
+
+1695826589 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\funciones.cpp
+	<iostream>
+	<cstring>
+	"CargarCadena.h"
+	"Funciones.h"
+
+1695825604 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\funciones.h
+	"Pais.h"
+	"Ciudad.h"
+
+1695822092 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\pais.h
+
+1695822478 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\pais.cpp
+	"Pais.h"
+	<cstring>
+	<cstdio>
+	<iostream>
+	"CargarCadena.h"
+
+1695825593 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\paises y ciudades\main.cpp
+	<iostream>
+	"Pais.h"
+	"Ciudad.h"
+	"Funciones.h"
+

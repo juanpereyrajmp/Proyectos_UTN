@@ -48,3 +48,52 @@
 
 1695045756 c:\users\sebastian\desktop\juan\dev\laboratorio ii\prestamos\funciones.h
 
+1693417921 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\cargarcadena.cpp
+	<iostream>
+	"CargarCadena.h"
+
+1693417933 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\cargarcadena.h
+
+1695056419 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\cliente.cpp
+	<iostream>
+	"CargarCadena.h"
+	"Cliente.h"
+
+1695056335 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\cliente.h
+	"Direccion.h"
+
+1693415239 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\direccion.h
+	<cstring>
+
+1693941070 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\direccion.cpp
+	<iostream>
+	<cstring>
+	"Direccion.h"
+	"CargarCadena.h"
+
+1695058783 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\funciones.cpp
+	<iostream>
+	"CargarCadena.h"
+	"Funciones.h"
+	"Cliente.h"
+
+1695045756 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\funciones.h
+
+1693941071 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\gestorprestamos.cpp
+	<iostream>
+	"GestorPrestamos.h"
+
+1693941568 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\gestorprestamos.h
+
+1695042645 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\main.cpp
+	<iostream>
+	"Funciones.h"
+	"Prestamo.h"
+
+1695056478 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\prestamo.h
+	"Cliente.h"
+
+1695056531 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\prestamos\prestamo.cpp
+	<iostream>
+	"Prestamo.h"
+
