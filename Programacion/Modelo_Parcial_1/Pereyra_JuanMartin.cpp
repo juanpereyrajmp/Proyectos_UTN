@@ -3,45 +3,72 @@
 using namespace std;
 #include "parcialm1.h"
 
+void punto1();
+void punto2();
+
 int main()
 {
 
-    int opcion;
+///Generar un archivo con el codigo de obra, la direccion y la provincia,
+///de las obras cuyo estado de ejecucion sea "en ejecucion".
 
-    do{
+    punto1();
+    punto2();
 
-        system("cls");
-        cout << "*****MENU*****" << endl;
-        cout << "**************" << endl;
-        cout << "1 - Punto 1" << endl;
-        cout << "2 - Punto 2" << endl;
-        cout << "**************" << endl;
-        cout << "0 - Salir" << endl;
-        cout << "**************" << endl;
-        cout << "Opcion:";
-        cin >> opcion;
-        system("cls");
-
-        switch(opcion){
-        case 1:{
-            ArchivoObras obrasDefault(obrasDefault);
-
-            obrasDefault.leerRegistro(1);
-
-            system("pause");
-        }
-            break;
-        case 2:
-
-            break;
-        case 0:
-            break;
-        default:
-            cout << "Opcion incorrecta. Seleccione nuevamente" << endl;
-            break;
-        }
-
-    }while(opcion!=0);
 
 	return 0;
+}
+
+class ObrasEjecucion{
+private:
+    char _codigoObra[5];
+    char _direccion[30];
+    int _provincia;
+    bool _activo;
+
+public:
+    void setCodigoObra(const char * codigoObra){
+        strcpy(_codigoObra,codigoObra);
+    }
+    void setDireccion(const char * direccion){
+        strcpy(_direccion,direccion);
+    }
+    void setProvincia(int provincia){
+        _provincia = provincia;
+    }
+    void setActivo(bool activo){
+        _activo = activo;
+    }
+};
+
+bool grabarObraEjecucion(ObrasEjecucion obraNueva){
+    FILE * archivoObraEjecucion;
+    archivoObraEjecucion = fopen("ObrasEnEjecucion.dat", "ab");
+    if (archivoObraEjecucion == nullptr){
+        return false;
+    }
+    bool escribio = fwrite(&obraNueva, sizeof obraNueva, 1, archivoObraEjecucion);
+    fclose(archivoObraEjecucion);
+    return escribio;
+}
+
+void punto1(){
+    Obra reg;
+    ArchivoObras archivoObra("obras.dat");
+    int cantidadRegistros = archivoObra.contarRegistros();
+    ObrasEjecucion obraEjecucion;
+
+    for (int i=0;i<cantidadRegistros,i++){
+        reg = archivoObra.leerRegistro();
+        if (reg.getEstadoEjecucion() == 3 && reg.getActivo()){
+            obraEjecucion.setCodigoObra(reg.getCodigoObra());
+            obraEjecucion.setDireccion(reg.getDireccion());
+            obraEjecucion.setProvincia(reg.getProvincia());
+            obraEjecucion.setActivo(reg.getActivo());
+        }
+    }
+}
+
+void punto2(){
+
 }

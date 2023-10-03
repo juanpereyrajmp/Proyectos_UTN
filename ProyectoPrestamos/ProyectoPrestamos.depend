@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1695999313 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\main.cpp
+	<iostream>
+	"Programa.h"
+
+1695998089 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1695995280 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\fecha.h
+
+1693417921 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\cargarcadena.cpp
+	<iostream>
+	"CargarCadena.h"
+
+1693417933 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\cargarcadena.h
+
+1695998425 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\cliente.cpp
+	<iostream>
+	"CargarCadena.h"
+	"Cliente.h"
+
+1695998391 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\cliente.h
+	"Direccion.h"
+
+1693415239 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\direccion.h
+	<cstring>
+
+1695998539 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\clientemanager.cpp
+	<iostream>
+	"ClienteManager.h"
+
+1695998564 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\clientemanager.h
+
+1693941070 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\direccion.cpp
+	<iostream>
+	<cstring>
+	"Direccion.h"
+	"CargarCadena.h"
+
+1696000769 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\programa.cpp
+	<iostream>
+	"Programa.h"
+	"ClienteMenu.h"
+
+1695999366 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\programa.h
+
+1696001068 source:c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\clientemenu.cpp
+	<iostream>
+	"ClienteMenu.h"
+
+1696000321 c:\users\sebastian\desktop\juan\dev\laboratorio ii\proyectos_utn\proyectoprestamos\clientemenu.h
+
